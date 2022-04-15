@@ -1,0 +1,58 @@
+.f-r {
+    float: right;
+    /* border: 1px solid #fff; */
+    border-radius: 20px;
+    background: lightblue;
+    color: #fff;
+    padding: 4px 6px;
+}
+.bg-img {
+    background-image: url(img/jumbo-bg.jpg);
+}
+.bt-s{
+    border: 1px solid #03163f;
+    border-radius: 7px;
+    background:#fff;
+    color: #03163f;
+    padding: 7px 6px;
+}
+.bt-s:hover{
+    color: #fff;
+    border: 2px solid #03163f;
+    background: #03163f;
+    border-radius: 0;
+}
+.pd-r{
+    padding-right: 1.3em;
+    color: #fff;
+}
+
+.Allrecipes .recipes {
+    list-style-type: none;
+    display: flex;
+    background-color: #000;
+}
+
+.Allrecipes li {
+    overflow: hidden;
+}
+
+.Allrecipes .recipes img {
+    width: 100%;
+    opacity: 0.7;
+    transform: scale(1.15);
+    background: white;
+    transition: transform 0.5s, opacity 0.5s;
+}
+.pd-r a {
+    color: #fff;
+}
+.nav-i {
+   
+    display: flex;
+    /* -ms-flex-direction: column; */
+    /* flex-direction: column; */
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
